@@ -8,7 +8,7 @@
 int main(){
     int torre = 1, bispo = 1, rainha = 1;
 
-    for(int torre = 1; torre <= 5; torre++){
+    for(torre; torre <= 5; torre++){
         printf("\nTorre se moveu para a %dº casa na direita.", torre);
     }
     printf("\n");
