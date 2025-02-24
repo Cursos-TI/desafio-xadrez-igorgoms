@@ -1,6 +1,8 @@
 #include <stdio.h>
 
+// Desafio de Xadrez - MateCheck
 // Aluno Igor Gomes
+
 
 int main(){
     int torre = 1, bispo = 1, rainha = 1, cavalo = 1;
