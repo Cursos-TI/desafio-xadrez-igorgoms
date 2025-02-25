@@ -67,15 +67,16 @@ int main(){
         break;
 
         case 4:
-            while (cavalo--)
+            while (cavalo > 0)
             {
                 for (int i = 1; i <= 2; i++)
                 {
                     printf("\nO Cavalo se moveu %d casa para cima.", i);
                 }
-                printf("\nO Cavalo completa seu movimento com uma casa para a direita!");
-                
+                printf("\nO Cavalo completa seu movimento com uma casa para a direita!", cavalo);
+                cavalo--;
             }
+            cavalo++;
         break;
 
         case 5:
